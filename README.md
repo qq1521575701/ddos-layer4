@@ -1,5 +1,5 @@
 ### 安装 （docker）
-apt update -y && apt install docker.io -y && git clone https://github.com/qq1521575701/dd.git && cd ddos-L4 && docker build -t ddos-L4 . && docker run -itd --name ddos-L4 --network host ddos-L4:latest && docker exec -it ddos /bin/bash
+apt update -y && apt install docker.io -y && git clone https://github.com/qq1521575701/ddos-L4.git && cd ddos-L4 && docker build -t ddos-L4 . && docker run -itd --name ddos-L4 --network host ddos-L4:latest && docker exec -it ddos /bin/bash
 
 ### 使用
 docker exec -it ddos-L4 ./dns ip port dns.txt 1 -1 60 &
