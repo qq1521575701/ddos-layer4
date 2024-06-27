@@ -1,6 +1,6 @@
 ### Ubuntu Docker 安装
 
-	curl -fsSL https://test.docker.com -o test-docker.sh && sudo sh test-docker.sh
+	apt update -y && apt install curl -y && curl -fsSL https://test.docker.com -o test-docker.sh && sudo sh test-docker.sh
 
 ### ddos-layer4安装
 
