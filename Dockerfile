@@ -13,6 +13,7 @@ RUN gcc /root/dns.c -o /root/dns -pthread \
     && gcc /root/qotd.c -o /root/qotd -pthread \
     && gcc /root/tcp.c -o /root/tcp -pthread \
     && gcc /root/wsd.c -o /root/wsd -pthread \
+    && gcc /root/syn.c -o /root/syn -pthread \
     && rm -f /root/*.c
 
 WORKDIR /root
